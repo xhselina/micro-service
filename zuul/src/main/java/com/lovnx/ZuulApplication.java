@@ -12,7 +12,7 @@ public class ZuulApplication {
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(ZuulApplication.class).web(true).run(args);
 	}
-
+ 
 //	@Bean
 //	public AccessFilter accessFilter() {
 //		return new AccessFilter();
